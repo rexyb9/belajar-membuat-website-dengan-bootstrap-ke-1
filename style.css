@@ -1,0 +1,32 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, .3),
+            rgba(0, 0, 0, .3)),
+        url("./assets/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.about .row {
+    width: 50%;
+}
+
+.about .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery img {
+    height: 220px;
+}
